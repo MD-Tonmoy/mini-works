@@ -1,1 +1,2 @@
-web: gunicorn miniworks.wsgi --log-file -
+web: gunicorn --pythonpath miniworks.wsgi
+
