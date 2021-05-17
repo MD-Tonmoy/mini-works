@@ -1,2 +1,2 @@
-web: gunicorn --pythonpath miniworks.wsgi
+web: gunicorn --pythonpath mini-works miniworks.wsgi
 
